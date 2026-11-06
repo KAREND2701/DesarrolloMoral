@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es" data-text-size="normal">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta name="description" content="Detalle interactivo de una teoría sobre desarrollo moral y competencias ciudadanas." />
+  <title>Desarrollo moral y competencias</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="theory-page">
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+  <header class="topbar">
+    <a class="logo" href="index.html" aria-label="Desarrollo Moral, ir al inicio">
+      <img src="icons/bloques.svg" alt="" width="44" height="44" />
+      <span>Desarrollo<br />Moral</span>
+    </a>
+
+    <nav class="main-nav" aria-label="Navegación principal">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="index.html#teorias">Teorías</a></li>
+        <li><a href="index.html#juego">Juego</a></li>
+        <li><a href="index.html#referencias">Referencias</a></li>
+      </ul>
+    </nav>
+
+    <div class="text-size" role="group" aria-label="Tamaño de letra">
+      <span class="text-size-label" aria-hidden="true">Letra</span>
+      <button type="button" data-size="down" aria-label="Hacer la letra más pequeña">A−</button>
+      <button type="button" data-size="up" aria-label="Hacer la letra más grande">A+</button>
+    </div>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+    <div id="app">
+      <p class="loading-msg">Cargando teoría…</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <span>Trabajo académico · Psicología del Desarrollo</span>
+    <span>Diseñado para una navegación visual, accesible y dinámica</span>
+    <span>Karem Daniela Marroquin Gutiérrez 100188654 - Karen Liseth Devia Guarin 100183262</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

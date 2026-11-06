@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es" data-text-size="normal">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta name="description" content="Desarrollo moral y competencias" />
+  <title>Desarrollo moral y competencias</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="home-page">
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+  <header class="topbar">
+    <a class="logo" href="index.html" aria-label="Desarrollo Moral, ir al inicio">
+      <img src="icons/bloques.svg" alt="" width="44" height="44" />
+      <span>Desarrollo<br />Moral</span>
+    </a>
+
+    <nav class="main-nav" aria-label="Navegación principal">
+      <ul>
+        <li><a href="index.html" aria-current="page">Inicio</a></li>
+        <li><a href="#teorias">Teorías</a></li>
+        <li><a href="#juego">Juego</a></li>
+        <li><a href="#referencias">Referencias</a></li>
+      </ul>
+    </nav>
+
+    <div class="text-size" role="group" aria-label="Tamaño de letra">
+      <span class="text-size-label" aria-hidden="true">Letra</span>
+      <button type="button" data-size="down" aria-label="Hacer la letra más pequeña">A−</button>
+      <button type="button" data-size="up" aria-label="Hacer la letra más grande">A+</button>
+    </div>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+
+    <section class="hero reveal-up" aria-labelledby="titulo">
+      <img class="float-toy toy-1" src="icons/sonajero.svg" alt="" aria-hidden="true" />
+      <img class="float-toy toy-2" src="icons/cometa.svg" alt="" aria-hidden="true" />
+      <img class="float-toy toy-3" src="icons/pelota.svg" alt="" aria-hidden="true" />
+      <img class="float-toy toy-4" src="icons/caja-sorpresa.svg" alt="" aria-hidden="true" />
+
+      <p class="eyebrow">Desarrollo Moral</p>
+      <h1 id="titulo">DESARROLLO MORAL Y <br />COMPETENCIAS CIUDADANAS</h1>
+      <p class="subtitle">Construyendo autonomía: cómo el desarrollo moral y las competencias ciudadanas nos enseñan a decidir más allá de la multitud.</p>
+
+    </section>
+
+    <section id="teorias" class="theories-section" aria-labelledby="teorias-heading">
+      <div class="section-intro reveal-up">
+        <h2 id="teorias-heading">Explora el caso</h2>
+        <div class="case-overview" aria-label="Resumen visual del caso">
+          <article class="case-highlight">
+            <span class="case-icon" aria-hidden="true">🏠</span>
+            <div><h3>Un conflicto familiar</h3><p>Mariana y Andrés deben decidir cómo actuar ante la conducta de Mateo, su hijo de diez años.</p></div>
+          </article>
+          <article class="case-highlight">
+            <span class="case-icon" aria-hidden="true">📱</span>
+            <div><h3>¿Qué ocurrió?</h3><p>Mateo le quitó el celular a un compañero, lo escondió y al principio negó lo sucedido.</p></div>
+          </article>
+          <article class="case-highlight">
+            <span class="case-icon" aria-hidden="true">⚖️</span>
+            <div><h3>Dos posturas, varias decisiones</h3><p>Andrés propone un castigo; Mariana prefiere comprender las razones y dialogar sobre cómo reparar el daño.</p></div>
+          </article>
+        </div>
+        <details class="case-disclosure">
+          <summary>
+            <span class="case-summary-icon" aria-hidden="true">📖</span>
+            <span class="case-summary-text"><strong>Leer caso completo</strong><small>Consulta todos los detalles de la situación</small></span>
+            <span class="summary-toggle" aria-hidden="true"></span>
+          </summary>
+          <div class="case-full-text">
+            <p>En una casa, Mariana y su esposo Andrés discuten sobre cómo corregir a su hijo Mateo, de diez años, luego de que la profesora del colegio los llamara para reportar que el niño le quitó el celular a un compañero durante el recreo y lo escondió en su maleta, negando lo ocurrido en un principio hasta que la profesora revisó su puesto; mientras Andrés insistía que la mejor manera de corregirlo es aplicarle un castigo severo y retirarle los videojuegos por un mes para que aprenda a respetar la autoridad y sienta el peso de la desobediencia, Mariana prefiere hablar con calma para entender las razones detrás de la conducta de su hijo, sospechando que pudo hacerlo por encajar con un grupo de amigos que lo presionaban, lo que deja abiertas decisiones posibles como imponer el castigo sin escuchar explicaciones, justificar al niño restándole importancia al incidente para evitarle una crisis, o sentarse a dialogar para establecer normas claras de restitución del daño y empatía hacia el compañero afectado..</p>
+          </div>
+        </details>
+        <p class="section-kicker">Hagamos un analisis teorico</p>
+        <p>Elige un autor y descubre que diria de este caso</p>
+      </div>
+
+      <div class="theories-grid" data-theories-grid>
+        <p class="loading-msg">Cargando teorías…</p>
+      </div>
+      <noscript><p class="loading-msg">Esta página necesita JavaScript para mostrar las teorías.</p></noscript>
+    </section>
+
+    <section id="juego" class="game-section" aria-labelledby="juego-heading">
+      <article class="game-card theme-sky reveal-up">
+        <div class="game-text">
+          <span class="game-badge"><span aria-hidden="true">🎮</span> Juego general</span>
+          <h2 id="juego-heading">Pon a prueba lo aprendido</h2>
+          <p>Ya conoces el caso de Mateo y lo que dirían Freud, Piaget y Kohlberg. Ahora juega y comprueba cuánto recuerdas: esta actividad reúne el caso y las tres teorías en un solo juego.</p>
+          <a class="primary-btn" href="https://wordwall.net/es/resource/123208939?wwmethod=link" target="_blank" rel="noopener"
+             aria-label="Jugar el juego general del caso y las teorías (se abre en una pestaña nueva)">
+            <span>Jugar ahora</span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <a class="activity-link game-thumb" href="https://wordwall.net/es/resource/123208939?wwmethod=link" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+          <img src="media/juego-general.jpg" alt="" loading="lazy"
+               data-media-base="media/juego-general" data-media-step="0" data-media-fallback="media/reto-placeholder.svg" />
+          <span class="thumb-link-label">Ir al juego ↗</span>
+        </a>
+      </article>
+    </section>
+
+    <details id="referencias" class="full-refs">
+      <summary>
+        <span class="summary-icon" aria-hidden="true">📚</span>
+        <span class="summary-text">
+          <strong>Referencias completas</strong>
+          <small>Fuentes consultadas (<span data-references-count>0</span>): lecturas, videos y sitios recomendados</small>
+        </span>
+        <span class="summary-toggle" aria-hidden="true"></span>
+      </summary>
+      <div class="full-refs-inner">
+        <ol data-references-list></ol>
+      </div>
+    </details>
+
+  </main>
+
+  <footer class="site-footer">
+    <span>Trabajo académico · Desarrollo Moral</span>
+    <span>Karem Daniela Marroquin Gutiérrez 100188654 - Karen Liseth Devia Guarin 100183262</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

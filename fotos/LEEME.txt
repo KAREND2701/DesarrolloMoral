@@ -1,0 +1,4 @@
+Coloca aquí la foto de cada autor con el nombre de su teoría:
+  freud.jpg   piaget.jpg   kohlberg.jpg
+Acepta .jpg, .png, .jpeg o .webp. Recomendado: imagen cuadrada (ej. 600x600 px).
+Mientras no exista, se muestra autor-placeholder.svg.

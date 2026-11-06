@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none" stroke="#1E2A5A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="18" y="108" width="76" height="76" rx="12" fill="#FF7A6B"/>
+  <rect x="106" y="108" width="76" height="76" rx="12" fill="#4CC3F0"/>
+  <g transform="rotate(-9 100 70)"><rect x="62" y="22" width="76" height="76" rx="12" fill="#FFC83D"/></g>
+  <g fill="#1E2A5A" stroke="none" font-family="'Fredoka','Trebuchet MS','Arial Rounded MT Bold',Arial,sans-serif" font-weight="700" font-size="50" text-anchor="middle">
+    <text x="56" y="162">A</text>
+    <text x="144" y="162">B</text>
+    <text x="98" y="78" transform="rotate(-9 100 70)">C</text>
+  </g>
+  <circle cx="34" cy="124" r="4" fill="#FFF9EC" stroke="none"/>
+  <circle cx="166" cy="124" r="4" fill="#FFF9EC" stroke="none"/>
+</svg>
